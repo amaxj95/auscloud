@@ -1,0 +1,24 @@
+{
+  "name": "gcloud-toolkit-filtered-stream",
+  "version": "1.0.0",
+  "description": "Twitter Filtered Stream on GCP",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "prasannacs",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/bigquery": "^5.5.0",
+    "@google-cloud/pubsub": "^2.10.0",
+    "axios": "^0.27.2",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "googleapis": "^104.0.0",
+    "hashmap": "^2.4.0",
+    "needle": "^3.0.0",
+    "stripe": "^9.5.0"
+  }
+}
